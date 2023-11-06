@@ -11,8 +11,9 @@ int main(){
     cout<<"一周一共"<< day <<"天"<< endl;
 
 
-    int month = 12;
+    // int month = 12;
     const int month = 12;
+    // month = 1 const修饰的变量也不能修改
     cout<<"一年一共"<< month <<"月"<< endl;
 
     return 0;
