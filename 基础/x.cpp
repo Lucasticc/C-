@@ -9,6 +9,12 @@ int main(){
     cout<<"da" <<endl;
     cout<<"a=" << a <<endl;
     cout<<"一周一共"<< day <<"天"<< endl;
+
+
+    int month = 12;
+    const int month = 12;
+    cout<<"一年一共"<< month <<"月"<< endl;
+
     return 0;
     
 }
