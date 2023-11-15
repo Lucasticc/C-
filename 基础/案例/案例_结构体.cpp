@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <iostream>
+#include<ctime>
 using namespace std;
 struct Student
 {
@@ -30,7 +31,7 @@ void allocateSpace(Teacher tArry[],int len){
         for(int j=0;j<5;j++){
             tArry[i].sArry[j].sName ="Student_";
             tArry[i].sArry[j].sName += nameSeed[j];
-            int random = rand()%60;
+            int random = rand()%40+60;
             tArry[i].sArry[j].score = random;
 
         }
@@ -50,6 +51,10 @@ void printfINfo(const Teacher tArry[],int len){
 
 int main()
 {   
+    //随机数种子
+    srand((unsigned int)time(NULL));
+
+
     Teacher tArry[3];
     int len = sizeof(tArry)/sizeof(tArry[0]);
     allocateSpace(tArry,len);

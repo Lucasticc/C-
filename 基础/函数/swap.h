@@ -1,4 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int swap(int a,int b);
+void swap();
+// {
+//     cout<<"a>b?a:b";
+// }

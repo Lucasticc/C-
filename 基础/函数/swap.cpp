@@ -1,6 +1,5 @@
 #include"swap.h"
-
-int swap(int a, int b)
+void swap()
 {
-    return a>b?a:b;
+    cout<<"a>b?a:b";
 }
