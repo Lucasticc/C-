@@ -15,14 +15,11 @@ struct Student
     int score;
 
 };
-
+//在自定义函数中只读
 void printStudent2(const Student *p){
     cout<<p->name<<endl;
 
 }
-    
-
-
 
 int main()
 {
