@@ -23,13 +23,15 @@ void test01(){
     string s4(10,'a');
     cout <<"s4="<<s4<<endl;
     string s5 = "hellow";// 直接对string进行赋值操作
+    s5+=" world"; //可以追加字符串
+    s5.append("666");
     cout<<s5<<endl;
     string s6;
     s6.assign("hellow c++");//使用成员函数进行复制
     cout<<s6<<endl;
     s6.assign("hellow c++",5);//使用成员函数进行复制 //只赋值前五个字符串
     cout<<s6<<endl;
-     
+            
 } 
 
 int main()
