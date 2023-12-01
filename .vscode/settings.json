@@ -56,5 +56,6 @@
         "__tree": "cpp",
         "map": "cpp"
     },
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "editor.inlineSuggest.showToolbar": "onHover"
 }
