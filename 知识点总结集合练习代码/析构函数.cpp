@@ -1,5 +1,6 @@
 #include <iostream>
 
+//析构函数 在调用delete后对象的析构函数会自动调用执行
 class MyClass {
 public:
     MyClass() {
